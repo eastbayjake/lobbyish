@@ -3,6 +3,7 @@ var mongoose = require('mongoose'),
     ObjectId = Schema.ObjectId;
 
 var GroupSchema = new Schema({
+	account: {type: ObjectId, ref: 'ObjectId'},
 	type: {type: String, enum: ['Party', 'Committee', 'Subcommittee']},
   name: String,
   created_by: {type: ObjectId, ref: 'User', required: true},
