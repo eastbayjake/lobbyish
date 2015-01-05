@@ -1,0 +1,28 @@
+{
+  "name": "lobbyish",
+  "version": "0.0.1",
+  "description": "Paperless vote counts for lobbyists",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.10.6",
+    "mongoose": "^3.8.21"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eastbayjake/lobbyish.git"
+  },
+  "author": "Jake McGuire <mcguireghs@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/eastbayjake/lobbyish/issues"
+  },
+  "homepage": "https://github.com/eastbayjake/lobbyish"
+}
